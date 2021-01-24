@@ -1,0 +1,33 @@
+@import '~harmonium/scss/app';
+
+body{
+  margin: 20px 40px;
+}
+
+.job{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 10px;
+  align-items: left;
+}
+
+.detail-logo{
+  height: 30px;
+  float: right;
+}
+
+.job:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.job-company{
+  padding: 0 30px;
+}
+
+.job-dialog{
+  padding: 30px 50px;
+}
+
