@@ -18,11 +18,11 @@ const Jobs = ({ jobs }) => {
   return (
     <div className="jobs">
 
-      <h1>Remote Software Developer Jobs</h1>
+      <h1 className='remote'>Remote Software Developer Jobs</h1>
       <h6>Found {numJobs} jobs </h6>
       
       { jobsOnPage.map((job, i) => <Job key={ i } job={ job } />) }
-        <Pagination
+      <Pagination
           currentPage={page}
         totalPages={ Math.floor(numJobs / 20) }
           onPageClick={onClick}

@@ -13,7 +13,7 @@ const App = () => {
 
   useEffect(() => {
     fetchJobs()
-  })
+  },[])
   
   async function fetchJobs() {
     const { data: allJobs } = await axios.get(JOB_API_URL)

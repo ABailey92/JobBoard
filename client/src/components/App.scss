@@ -2,6 +2,9 @@
 
 body{
   margin: 20px 40px;
+  color: #1982c4;
+  background-color: #011627
+  
 }
 
 .job{
@@ -11,16 +14,18 @@ body{
   margin: 20px 0;
   padding: 20px 10px;
   align-items: left;
+  background-color: #011627;
+  border: 1px solid #fdfffc;
 }
 
 .detail-logo{
-  height: 30px;
+  height: 5vh;
   float: right;
 }
 
 .job:hover{
   cursor: pointer;
-  color: blue;
+  color: #2ec4b6;
 }
 
 .job-company{
@@ -31,3 +36,20 @@ body{
   padding: 30px 50px;
 }
 
+.remote{
+  color: #ffffff;
+}
+
+.modal{
+  width: 90%;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+.company{
+  color: #1982c4;
+}
+
+.title{
+  color: #011627;
+}
